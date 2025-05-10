@@ -25,18 +25,18 @@ export default function HeroSection() {
   
   return (
     <section className="relative h-screen overflow-hidden">
-      {/* Background image with parallax */}
+      {/* Background image with parallax - updated to fishing image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1615571022219-eb45cf7faa9d?q=80&w=1920&auto=format&fit=crop')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1920&auto=format&fit=crop')",
           transform: `translateY(${backgroundY}px)`,
           backgroundPosition: `center ${50 + scrollY * 0.05}%`
         }}
       />
       
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/70" />
       
       {/* Content */}
       <div

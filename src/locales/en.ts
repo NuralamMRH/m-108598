@@ -8,9 +8,9 @@ export const en = {
     bookNow: "Book Now"
   },
   hero: {
-    subtitle: "BEACHFRONT LUXURY ACCOMMODATION",
-    title: "Experience Seaside Tranquility",
-    description: "Discover our exclusive collection of luxury beachfront apartments and hotel rooms, offering unparalleled comfort and breathtaking sea views.",
+    subtitle: "OCEAN CONNECTION",
+    title: "Sustainable Development",
+    description: "StarLink BoatShare Seafood App from Fishing Ground to Table.",
     bookStay: "Book Your Stay",
     exploreApartments: "Explore Apartments",
     scrollDown: "Scroll Down"
@@ -45,63 +45,6 @@ export const en = {
     title: "Page Not Found",
     description: "We couldn't find the page you were looking for. Perhaps you took a wrong turn in paradise?",
     returnHome: "Return Home"
-  },
-  home: {
-    welcome: {
-      subtitle: "Welcome to MareSereno",
-      title: "Luxury Seaside Accommodations",
-      description1: "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms. Our beachfront accommodations combine elegant design with modern comfort, creating the perfect setting for an unforgettable seaside getaway.",
-      description2: "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need. Each space is thoughtfully designed to provide panoramic sea views and direct beach access.",
-      learnMore: "Learn More"
-    },
-    booking: {
-      subtitle: "Book Your Stay",
-      title: "Reserve Your Perfect Getaway",
-      description: "Take the first step towards your dream vacation by checking availability and securing your preferred dates. Our simple booking process ensures a seamless experience from reservation to arrival.",
-      benefits: ["Instant confirmation", "Best rate guarantee", "Flexible cancellation options", "Secure payment"]
-    },
-    featuredApartments: {
-      subtitle: "Our Accommodations",
-      title: "Featured Apartments",
-      description: "Discover our most popular accommodation options, each offering a perfect blend of comfort, style, and breathtaking sea views.",
-      viewAll: "View All Apartments"
-    },
-    amenities: {
-      subtitle: "Hotel Amenities",
-      title: "Experience The Best",
-      description: "Enjoy our premium facilities and services designed to make your stay exceptional.",
-      features: {
-        beachfront: {
-          title: "Beachfront Location",
-          description: "Direct access to pristine beaches with crystal clear waters."
-        },
-        pools: {
-          title: "Swimming Pools",
-          description: "Relax by our infinity pools with stunning sea views."
-        },
-        restaurant: {
-          title: "Gourmet Restaurant",
-          description: "Enjoy exquisite local and international cuisine."
-        },
-        wifi: {
-          title: "High-Speed Wi-Fi",
-          description: "Stay connected with complimentary high-speed internet."
-        },
-        bar: {
-          title: "Beach Bar & Café",
-          description: "Refreshing drinks and snacks served right on the beach."
-        },
-        location: {
-          title: "Prime Location",
-          description: "Close to local attractions, shops, and restaurants."
-        }
-      }
-    },
-    cta: {
-      title: "Ready for Your Dream Vacation?",
-      description: "Book your stay today and experience the perfect blend of luxury, comfort, and stunning sea views.",
-      bookNow: "Book Now"
-    }
   },
   apartments: {
     title: "Our Apartments & Rooms",
@@ -223,6 +166,111 @@ export const en = {
       emailSent: "Your reservation has been successfully confirmed. A confirmation email has been sent to",
       bookingReference: "Booking Reference",
       returnToHome: "Return to Homepage"
+    }
+  },
+  contact: {
+    title: "Contact Us",
+    subtitle: "We're here to help make your stay unforgettable. Reach out with any questions or special requests.",
+    getInTouch: "Get In Touch",
+    address: "Address",
+    phone: "Phone",
+    email: "Email",
+    receptionHours: "Reception Hours",
+    checkInTime: "Check-in: After 3:00 PM",
+    checkOutTime: "Check-out: Before 11:00 AM",
+    sendMessage: "Send Us a Message",
+    fullName: "Full Name",
+    phoneNumber: "Phone Number",
+    subject: "Subject",
+    message: "Message",
+    howCanWeHelp: "How can we help you?",
+    send: "Send Message",
+    messageSent: "Message Sent!",
+    thankYou: "Thank you for reaching out. We'll respond to your message as soon as possible.",
+    faq: "Frequently Asked Questions",
+    faqSubtitle: "Find quick answers to commonly asked questions about our accommodations and services.",
+    questions: {
+      checkInOut: {
+        question: "What are your check-in and check-out times?",
+        answer: "Check-in is from 3:00 PM onwards, and check-out is until 11:00 AM. Early check-in or late check-out may be arranged based on availability."
+      },
+      parking: {
+        question: "Is parking available at the property?",
+        answer: "Yes, we offer complimentary parking for all guests. Valet parking service is also available for an additional fee."
+      },
+      pets: {
+        question: "Are pets allowed in the apartments?",
+        answer: "We welcome pets in designated pet-friendly apartments. Please inform us in advance if you plan to bring a pet, as additional charges may apply."
+      },
+      breakfast: {
+        question: "Is breakfast included in the room rate?",
+        answer: "Breakfast is included in select room packages. You can check the inclusion during the booking process or add it to your reservation at any time."
+      },
+      transfers: {
+        question: "Do you offer airport transfers?",
+        answer: "Yes, we offer airport transfers for an additional fee. Please contact our concierge at least 48 hours before your arrival to arrange transportation."
+      },
+      amenities: {
+        question: "What amenities are available at the property?",
+        answer: "Our property features swimming pools, a spa, restaurants, a beach bar, fitness center, and direct beach access. All apartments include Wi-Fi, air conditioning, and modern appliances."
+      }
+    }
+  },
+  home: {
+    welcome: {
+      subtitle: "Welcome to MareSereno",
+      title: "Luxury Seaside Accommodations",
+      description1: "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms. Our beachfront accommodations combine elegant design with modern comfort, creating the perfect setting for an unforgettable seaside getaway.",
+      description2: "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need. Each space is thoughtfully designed to provide panoramic sea views and direct beach access.",
+      learnMore: "Learn More"
+    },
+    booking: {
+      subtitle: "Book Your Stay",
+      title: "Reserve Your Perfect Getaway",
+      description: "Take the first step towards your dream vacation by checking availability and securing your preferred dates. Our simple booking process ensures a seamless experience from reservation to arrival.",
+      benefits: ["Instant confirmation", "Best rate guarantee", "Flexible cancellation options", "Secure payment"]
+    },
+    featuredApartments: {
+      subtitle: "Our Accommodations",
+      title: "Featured Apartments",
+      description: "Discover our most popular accommodation options, each offering a perfect blend of comfort, style, and breathtaking sea views.",
+      viewAll: "View All Apartments"
+    },
+    amenities: {
+      subtitle: "Hotel Amenities",
+      title: "Experience The Best",
+      description: "Enjoy our premium facilities and services designed to make your stay exceptional.",
+      features: {
+        beachfront: {
+          title: "Beachfront Location",
+          description: "Direct access to pristine beaches with crystal clear waters."
+        },
+        pools: {
+          title: "Swimming Pools",
+          description: "Relax by our infinity pools with stunning sea views."
+        },
+        restaurant: {
+          title: "Gourmet Restaurant",
+          description: "Enjoy exquisite local and international cuisine."
+        },
+        wifi: {
+          title: "High-Speed Wi-Fi",
+          description: "Stay connected with complimentary high-speed internet."
+        },
+        bar: {
+          title: "Beach Bar & Café",
+          description: "Refreshing drinks and snacks served right on the beach."
+        },
+        location: {
+          title: "Prime Location",
+          description: "Close to local attractions, shops, and restaurants."
+        }
+      }
+    },
+    cta: {
+      title: "Ready for Your Dream Vacation?",
+      description: "Book your stay today and experience the perfect blend of luxury, comfort, and stunning sea views.",
+      bookNow: "Book Now"
     }
   },
   contact: {
