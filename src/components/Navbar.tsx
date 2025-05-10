@@ -13,13 +13,14 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   
-  const navLinks = [
+  // Make sure t.nav exists before trying to access its properties
+  const navLinks = t && t.nav ? [
     { name: t.nav.home, path: "/" },
     { name: t.nav.apartments, path: "/apartments" },
     { name: t.nav.amenities, path: "/amenities" },
     { name: t.nav.gallery, path: "/gallery" },
     { name: t.nav.contact, path: "/contact" }
-  ];
+  ] : [];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,7 +51,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-2">
           <ThemeToggle />
           <Button asChild className="btn-primary">
-            <Link to="/booking">{t.nav.bookNow}</Link>
+            <Link to="/booking">{t?.nav?.bookNow || "Book Now"}</Link>
           </Button>
         </div>
 
@@ -85,7 +86,7 @@ export default function Navbar() {
             
             <Button asChild className="w-full btn-primary mt-6">
               <Link to="/booking" onClick={() => setMobileMenuOpen(false)}>
-                {t.nav.bookNow}
+                {t?.nav?.bookNow || "Book Now"}
               </Link>
             </Button>
           </div>

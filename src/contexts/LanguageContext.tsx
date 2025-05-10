@@ -31,10 +31,11 @@ const translations: Record<string, Translations> = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState('vn');
-  const [t, setT] = useState<Translations>(translations.vn);
+  const [language, setLanguage] = useState('en'); // Changed default to 'en' to ensure we start with a complete structure
+  const [t, setT] = useState<Translations>(translations.en);
 
   useEffect(() => {
+    // Try to load saved language preference
     const savedLanguage = localStorage.getItem('language');
     if (savedLanguage && translations[savedLanguage]) {
       setLanguage(savedLanguage);

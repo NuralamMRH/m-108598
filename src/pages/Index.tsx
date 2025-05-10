@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -55,37 +56,37 @@ export default function Index() {
     window.scrollTo(0, 0);
   }, []);
   
-  // Feature items
+  // Feature items - add null checks for t
   const features = [
     {
       icon: <Waves className="h-8 w-8 text-primary" />,
-      title: t.home.amenities.features.beachfront.title,
-      description: t.home.amenities.features.beachfront.description
+      title: t?.home?.amenities?.features?.beachfront?.title || "Beachfront Location",
+      description: t?.home?.amenities?.features?.beachfront?.description || "Direct access to pristine beaches with crystal clear waters."
     },
     {
       icon: <LifeBuoy className="h-8 w-8 text-primary" />,
-      title: t.home.amenities.features.pools.title,
-      description: t.home.amenities.features.pools.description
+      title: t?.home?.amenities?.features?.pools?.title || "Swimming Pools",
+      description: t?.home?.amenities?.features?.pools?.description || "Relax by our infinity pools with stunning sea views."
     },
     {
       icon: <Utensils className="h-8 w-8 text-primary" />,
-      title: t.home.amenities.features.restaurant.title,
-      description: t.home.amenities.features.restaurant.description
+      title: t?.home?.amenities?.features?.restaurant?.title || "Gourmet Restaurant",
+      description: t?.home?.amenities?.features?.restaurant?.description || "Enjoy exquisite local and international cuisine."
     },
     {
       icon: <Wifi className="h-8 w-8 text-primary" />,
-      title: t.home.amenities.features.wifi.title,
-      description: t.home.amenities.features.wifi.description
+      title: t?.home?.amenities?.features?.wifi?.title || "High-Speed Wi-Fi",
+      description: t?.home?.amenities?.features?.wifi?.description || "Stay connected with complimentary high-speed internet."
     },
     {
       icon: <Coffee className="h-8 w-8 text-primary" />,
-      title: t.home.amenities.features.bar.title,
-      description: t.home.amenities.features.bar.description
+      title: t?.home?.amenities?.features?.bar?.title || "Beach Bar & Café",
+      description: t?.home?.amenities?.features?.bar?.description || "Refreshing drinks and snacks served right on the beach."
     },
     {
       icon: <MapPin className="h-8 w-8 text-primary" />,
-      title: t.home.amenities.features.location.title,
-      description: t.home.amenities.features.location.description
+      title: t?.home?.amenities?.features?.location?.title || "Prime Location",
+      description: t?.home?.amenities?.features?.location?.description || "Close to local attractions, shops, and restaurants."
     }
   ];
   
@@ -103,20 +104,20 @@ export default function Index() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in [animation-delay:100ms]">
                 <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                  {t.home.welcome.subtitle}
+                  {t?.home?.welcome?.subtitle || "Welcome"}
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
-                  {t.home.welcome.title}
+                  {t?.home?.welcome?.title || "Luxury Seaside Accommodations"}
                 </h2>
                 <p className="text-muted-foreground mb-6">
-                  {t.home.welcome.description1}
+                  {t?.home?.welcome?.description1 || "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms."}
                 </p>
                 <p className="text-muted-foreground mb-8">
-                  {t.home.welcome.description2}
+                  {t?.home?.welcome?.description2 || "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need."}
                 </p>
                 <Button asChild className="btn-primary">
                   <Link to="/about">
-                    {t.home.welcome.learnMore} <ArrowRight className="ml-2 h-4 w-4" />
+                    {t?.home?.welcome?.learnMore || "Learn More"} <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -154,16 +155,16 @@ export default function Index() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in">
                 <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                  {t.home.booking.subtitle}
+                  {t?.home?.booking?.subtitle || "Book Your Stay"}
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
-                  {t.home.booking.title}
+                  {t?.home?.booking?.title || "Reserve Your Perfect Getaway"}
                 </h2>
                 <p className="text-muted-foreground mb-6">
-                  {t.home.booking.description}
+                  {t?.home?.booking?.description || "Take the first step towards your dream vacation by checking availability and securing your preferred dates."}
                 </p>
                 <ul className="space-y-3 mb-8">
-                  {t.home.booking.benefits.map((item, index) => (
+                  {(t?.home?.booking?.benefits || ["Instant confirmation", "Best rate guarantee", "Flexible cancellation options", "Secure payment"]).map((item, index) => (
                     <li key={index} className="flex items-center">
                       <div className="h-5 w-5 rounded-full bg-primary/10 text-primary flex items-center justify-center mr-3">
                         <ArrowRight className="h-3 w-3" />
@@ -190,13 +191,13 @@ export default function Index() {
           <div className="container">
             <div className="text-center max-w-3xl mx-auto mb-12 animate-fade-in">
               <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                {t.home.featuredApartments.subtitle}
+                {t?.home?.featuredApartments?.subtitle || "Our Accommodations"}
               </span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-                {t.home.featuredApartments.title}
+                {t?.home?.featuredApartments?.title || "Featured Apartments"}
               </h2>
               <p className="text-muted-foreground">
-                {t.home.featuredApartments.description}
+                {t?.home?.featuredApartments?.description || "Discover our most popular accommodation options, each offering a perfect blend of comfort, style, and breathtaking sea views."}
               </p>
             </div>
             
@@ -211,7 +212,7 @@ export default function Index() {
             <div className="text-center mt-12">
               <Button asChild className="btn-primary">
                 <Link to="/apartments">
-                  {t.home.featuredApartments.viewAll} <ArrowRight className="ml-2 h-4 w-4" />
+                  {t?.home?.featuredApartments?.viewAll || "View All Apartments"} <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>
@@ -226,13 +227,13 @@ export default function Index() {
           <div className="container">
             <div className="text-center max-w-3xl mx-auto mb-12 animate-fade-in">
               <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                {t.home.amenities.subtitle}
+                {t?.home?.amenities?.subtitle || "Hotel Amenities"}
               </span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-                {t.home.amenities.title}
+                {t?.home?.amenities?.title || "Experience The Best"}
               </h2>
               <p className="text-muted-foreground">
-                {t.home.amenities.description}
+                {t?.home?.amenities?.description || "Enjoy our premium facilities and services designed to make your stay exceptional."}
               </p>
             </div>
             
@@ -259,13 +260,13 @@ export default function Index() {
           <div className="container">
             <div className="max-w-3xl mx-auto text-center animate-fade-in">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                {t.home.cta.title}
+                {t?.home?.cta?.title || "Ready for Your Dream Vacation?"}
               </h2>
               <p className="text-muted-foreground mb-8">
-                {t.home.cta.description}
+                {t?.home?.cta?.description || "Book your stay today and experience the perfect blend of luxury, comfort, and stunning sea views."}
               </p>
               <Button asChild size="lg" className="btn-primary">
-                <Link to="/booking">{t.home.cta.bookNow}</Link>
+                <Link to="/booking">{t?.home?.cta?.bookNow || "Book Now"}</Link>
               </Button>
             </div>
           </div>
