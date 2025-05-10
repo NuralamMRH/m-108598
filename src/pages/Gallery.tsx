@@ -137,6 +137,16 @@ export default function Gallery() {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [selectedImage, filteredImages]);
+
+  // Ensure translations exist or use fallbacks
+  const galleryTitle = t?.gallery?.title || "Photo Gallery";
+  const gallerySubtitle = t?.gallery?.subtitle || "Explore our beautiful spaces";
+  const filterLabels = {
+    all: t?.gallery?.filters?.all || "All",
+    exterior: t?.gallery?.filters?.exterior || "Exterior",
+    rooms: t?.gallery?.filters?.rooms || "Rooms",
+    amenities: t?.gallery?.filters?.amenities || "Amenities"
+  };
   
   return (
     <div className="min-h-screen flex flex-col">
@@ -148,10 +158,10 @@ export default function Gallery() {
           <div className="container relative z-10">
             <div className="max-w-3xl mx-auto text-center animate-fade-in">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                {t.gallery.title}
+                {galleryTitle}
               </h1>
               <p className="text-muted-foreground text-lg mb-6">
-                {t.gallery.subtitle}
+                {gallerySubtitle}
               </p>
             </div>
           </div>
@@ -178,13 +188,7 @@ export default function Gallery() {
                       : "bg-card hover:bg-muted"
                   )}
                 >
-                  {category === "all" 
-                    ? t.gallery.filters.all 
-                    : category === "exterior" 
-                      ? t.gallery.filters.exterior 
-                      : category === "rooms" 
-                        ? t.gallery.filters.rooms 
-                        : t.gallery.filters.amenities}
+                  {filterLabels[category as keyof typeof filterLabels]}
                 </button>
               ))}
             </div>

@@ -31,7 +31,7 @@ const translations: Record<string, Translations> = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState('en'); // Changed default to 'en' to ensure we start with a complete structure
+  const [language, setLanguage] = useState('en'); // Default to 'en' to ensure we start with a complete structure
   const [t, setT] = useState<Translations>(translations.en);
 
   useEffect(() => {
