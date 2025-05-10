@@ -168,7 +168,7 @@ export const en = {
       returnToHome: "Return to Homepage"
     }
   },
-  contact: {
+  contactPage: {
     title: "Contact Us",
     subtitle: "We're here to help make your stay unforgettable. Reach out with any questions or special requests.",
     getInTouch: "Get In Touch",
