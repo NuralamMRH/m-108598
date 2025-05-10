@@ -23,14 +23,23 @@ export const vn = {
     copyright: "© {year} MareSereno. Đã đăng ký bản quyền.",
   },
   hero: {
-    subtitle: "Chào mừng đến với MareSereno",
-    title: "Tìm nơi nghỉ dưỡng hoàn hảo của bạn",
-    description:
-      "Khám phá các căn hộ sang trọng của chúng tôi với tầm nhìn tuyệt đẹp ra biển. Đặt kỳ nghỉ của bạn ngay hôm nay!",
+    subtitle: "KẾT NỐI ĐẠI DƯƠNG",
+    title: "Phát Triển Bền Vững",
+    description: "Ứng dụng StarLink BoatShare Hải Sản từ Ngư trường đến Bàn ăn.",
     bookStay: "Đặt phòng ngay",
     exploreApartments: "Khám phá căn hộ",
     scrollDown: "Cuộn xuống",
   },
+  // Add mapping to match the English structure
+  nav: {
+    home: "Trang chủ",
+    apartments: "Căn hộ",
+    amenities: "Tiện nghi",
+    gallery: "Thư viện ảnh",
+    contact: "Liên hệ",
+    bookNow: "Đặt phòng ngay"
+  },
+  // Rest of Vietnamese translations
   home: {
     welcome: {
       subtitle: "Chào mừng",
@@ -300,5 +309,121 @@ export const vn = {
         rating: 5,
       },
     ],
+  },
+  // Add missing properties to match English structure
+  bookingForm: {
+    title: "Đặt Kỳ Nghỉ của Bạn",
+    checkIn: "Ngày nhận phòng",
+    checkOut: "Ngày trả phòng",
+    adults: "Người lớn",
+    children: "Trẻ em",
+    adult: "Người lớn",
+    child: "Trẻ em",
+    selectDate: "Chọn ngày",
+    checkAvailability: "Kiểm tra Tình trạng Phòng trống",
+    bookingConfirmed: "Đặt phòng thành công!"
+  },
+  notFound: {
+    title: "Không tìm thấy trang",
+    description: "Chúng tôi không thể tìm thấy trang bạn đang tìm kiếm. Có lẽ bạn đã nhầm đường?",
+    returnHome: "Quay lại trang chủ"
+  },
+  apartments: {
+    title: "Căn hộ & Phòng của Chúng tôi",
+    subtitle: "Khám phá các lựa chọn chỗ ở cao cấp của chúng tôi, từ studio nhỏ xinh đến những căn penthouse sang trọng.",
+    filters: {
+      guests: "Khách",
+      anyGuests: "Bất kỳ số lượng khách",
+      onePlus: "1+ khách",
+      twoPlus: "2+ khách",
+      threePlus: "3+ khách",
+      fourPlus: "4+ khách",
+      location: "Vị trí",
+      allLocations: "Tất cả vị trí",
+      priceRange: "Khoảng giá",
+      showing: "Đang hiện",
+      of: "trên",
+      accommodations: "chỗ ở",
+      resetFilters: "Đặt lại bộ lọc",
+      noMatch: "Không có căn hộ nào phù hợp với bộ lọc của bạn",
+      adjustFilters: "Hãy thử điều chỉnh tiêu chí lọc để xem nhiều tùy chọn hơn.",
+      viewDetails: "Xem chi tiết",
+      features: "tính năng",
+      more: "thêm"
+    }
+  },
+  contact: {
+    title: "Liên hệ với chúng tôi",
+    subtitle: "Chúng tôi luôn sẵn sàng để kỳ nghỉ của bạn trở nên đáng nhớ. Hãy liên hệ với chúng tôi nếu có bất kỳ câu hỏi hoặc yêu cầu đặc biệt nào.",
+    getInTouch: "Kết nối với chúng tôi",
+    address: "Địa chỉ",
+    phone: "Điện thoại",
+    email: "Email",
+    receptionHours: "Giờ lễ tân",
+    checkInTime: "Nhận phòng: Sau 15:00",
+    checkOutTime: "Trả phòng: Trước 11:00",
+    sendMessage: "Gửi tin nhắn cho chúng tôi",
+    fullName: "Họ và tên",
+    phoneNumber: "Số điện thoại",
+    subject: "Chủ đề",
+    message: "Tin nhắn",
+    howCanWeHelp: "Chúng tôi có thể giúp gì cho bạn?",
+    send: "Gửi tin nhắn",
+    messageSent: "Đã gửi tin nhắn!",
+    thankYou: "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ phản hồi tin nhắn của bạn trong thời gian sớm nhất.",
+    faq: "Câu hỏi thường gặp",
+    faqSubtitle: "Tìm câu trả lời nhanh cho các câu hỏi thường gặp về chỗ ở và dịch vụ của chúng tôi.",
+    questions: {
+      checkInOut: {
+        question: "Thời gian nhận phòng và trả phòng của bạn là gì?",
+        answer: "Nhận phòng từ 15:00 trở đi và trả phòng cho đến 11:00. Nhận phòng sớm hoặc trả phòng muộn có thể được sắp xếp dựa trên tình trạng phòng trống."
+      },
+      parking: {
+        question: "Có chỗ đỗ xe tại khách sạn không?",
+        answer: "Có, chúng tôi cung cấp chỗ đỗ xe miễn phí cho tất cả khách. Dịch vụ đỗ xe có người phục vụ cũng có sẵn với phụ phí."
+      },
+      pets: {
+        question: "Có cho phép vật nuôi trong căn hộ không?",
+        answer: "Chúng tôi chào đón vật nuôi trong các căn hộ thân thiện với vật nuôi được chỉ định. Vui lòng thông báo cho chúng tôi trước nếu bạn dự định mang theo vật nuôi, vì có thể áp dụng phụ phí bổ sung."
+      },
+      breakfast: {
+        question: "Bữa sáng có được bao gồm trong giá phòng không?",
+        answer: "Bữa sáng được bao gồm trong một số gói phòng được chọn. Bạn có thể kiểm tra phần bao gồm trong quá trình đặt phòng hoặc thêm vào đặt phòng của bạn bất cứ lúc nào."
+      },
+      transfers: {
+        question: "Bạn có cung cấp dịch vụ đưa đón sân bay không?",
+        answer: "Có, chúng tôi cung cấp dịch vụ đưa đón sân bay với phụ phí bổ sung. Vui lòng liên hệ với quầy lễ tân ít nhất 48 giờ trước khi bạn đến để sắp xếp phương tiện đi lại."
+      },
+      amenities: {
+        question: "Những tiện nghi nào có sẵn tại khách sạn?",
+        answer: "Khách sạn của chúng tôi có hồ bơi, spa, nhà hàng, quầy bar bên bãi biển, trung tâm thể dục và lối đi trực tiếp ra bãi biển. Tất cả các căn hộ đều có Wi-Fi, điều hòa không khí và các thiết bị hiện đại."
+      }
+    }
+  },
+  apartmentDescriptions: {
+    "1": {
+      name: "Phòng Suite View Biển Deluxe",
+      description: "Phòng suite sang trọng với tầm nhìn toàn cảnh ra biển, tiện nghi hiện đại và ban công riêng."
+    },
+    "2": {
+      name: "Căn hộ Gia đình Cao cấp",
+      description: "Căn hộ rộng rãi lý tưởng cho gia đình, với đầy đủ nhà bếp và tầm nhìn tuyệt đẹp ra biển."
+    },
+    "3": {
+      name: "Studio Bãi biển Executive",
+      description: "Studio thanh lịch với lối đi trực tiếp ra bãi biển, thiết kế hiện đại và hoàn thiện cao cấp."
+    },
+    "4": {
+      name: "Phòng Suite Penthouse Sang trọng",
+      description: "Phòng suite tầng áp mái độc quyền với sân thượng rộng rãi và tầm nhìn toàn cảnh ra biển."
+    },
+    "5": {
+      name: "Phòng Đôi Cổ điển",
+      description: "Phòng khách sạn thoải mái với tiện nghi hiện đại và tầm nhìn ra biển một phần."
+    },
+    "6": {
+      name: "Căn hộ View Vườn",
+      description: "Căn hộ yên tĩnh được bao quanh bởi khu vườn tươi tốt, chỉ cách bãi biển một quãng đi bộ ngắn."
+    }
   },
 };

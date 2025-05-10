@@ -11,14 +11,79 @@ export const it = {
     logout: "Logout",
   },
   hero: {
-    subtitle: "Benvenuti al MareSereno",
-    title: "La Tua Oasi di Lusso sul Mare",
-    description:
-      "Scopri un'esperienza indimenticabile di relax e comfort. Prenota ora il tuo soggiorno da sogno!",
+    subtitle: "COLLEGAMENTO OCEANICO",
+    title: "Sviluppo Sostenibile",
+    description: "App StarLink BoatShare Prodotti Ittici dal Mare alla Tavola.",
     bookStay: "Prenota il Tuo Soggiorno",
     exploreApartments: "Esplora gli Appartamenti",
     scrollDown: "Scorri verso il basso",
   },
+  
+  // Add mapping to match the English structure
+  nav: {
+    home: "Casa",
+    apartments: "Appartamenti",
+    amenities: "Servizi",
+    gallery: "Galleria",
+    contact: "Contatto",
+    bookNow: "Prenota Ora"
+  },
+  footer: {
+    description: "Appartamenti di lusso fronte mare e camere d'albergo con splendida vista sul mare, che offrono la perfetta combinazione di comfort ed eleganza per la tua vacanza da sogno.",
+    quickLinks: "Collegamenti Rapidi",
+    contact: "Contatto",
+    newsletter: "Newsletter",
+    newsletterDesc: "Iscriviti alla nostra newsletter per offerte speciali e aggiornamenti.",
+    yourEmail: "Il tuo indirizzo email",
+    subscribe: "Iscriviti",
+    allRights: "Tutti i diritti riservati."
+  },
+  bookingForm: {
+    title: "Prenota il tuo soggiorno",
+    checkIn: "Data di arrivo",
+    checkOut: "Data di partenza",
+    adults: "Adulti",
+    children: "Bambini",
+    adult: "Adulto",
+    child: "Bambino",
+    selectDate: "Seleziona data",
+    checkAvailability: "Controlla Disponibilità",
+    bookingConfirmed: "Prenotazione Confermata!"
+  },
+  testimonials: {
+    title: "Cosa Dicono i Nostri Ospiti",
+    description: "Scopri perché i nostri ospiti continuano a tornare a MareSereno per le loro fughe al mare."
+  },
+  notFound: {
+    title: "Pagina Non Trovata",
+    description: "Non abbiamo trovato la pagina che stavi cercando. Forse hai preso una svolta sbagliata in paradiso?",
+    returnHome: "Torna alla Home"
+  },
+  apartments: {
+    title: "I Nostri Appartamenti e Camere",
+    subtitle: "Scopri la nostra selezione di alloggi premium, da accoglienti monolocali a lussuosi attici.",
+    filters: {
+      guests: "Ospiti",
+      anyGuests: "Numero di ospiti qualsiasi",
+      onePlus: "1+ ospiti",
+      twoPlus: "2+ ospiti",
+      threePlus: "3+ ospiti",
+      fourPlus: "4+ ospiti",
+      location: "Posizione",
+      allLocations: "Tutte le posizioni",
+      priceRange: "Fascia di Prezzo",
+      showing: "Visualizzazione",
+      of: "di",
+      accommodations: "alloggi",
+      resetFilters: "Reimposta Filtri",
+      noMatch: "Nessun appartamento corrisponde ai tuoi filtri",
+      adjustFilters: "Prova a modificare i criteri di filtro per vedere più opzioni.",
+      viewDetails: "Visualizza Dettagli",
+      features: "caratteristiche",
+      more: "altro"
+    }
+  },
+  
   home: {
     welcome: {
       subtitle: "Benvenuti",
@@ -267,4 +332,78 @@ export const it = {
       "La pagina che stai cercando non esiste o è stata spostata. Ritorna alla homepage o utilizza il menu di navigazione per trovare quello che cerchi.",
     backHome: "Torna alla Homepage",
   },
+  contact: {
+    title: "Contattaci",
+    subtitle: "Siamo qui per aiutarti a rendere il tuo soggiorno indimenticabile. Contattaci per qualsiasi domanda o richiesta speciale.",
+    getInTouch: "Mettiti in Contatto",
+    address: "Indirizzo",
+    phone: "Telefono",
+    email: "Email",
+    receptionHours: "Orari Reception",
+    checkInTime: "Check-in: Dopo le 15:00",
+    checkOutTime: "Check-out: Prima delle 11:00",
+    sendMessage: "Inviaci un Messaggio",
+    fullName: "Nome Completo",
+    phoneNumber: "Numero di Telefono",
+    subject: "Oggetto",
+    message: "Messaggio",
+    howCanWeHelp: "Come possiamo aiutarti?",
+    send: "Invia Messaggio",
+    messageSent: "Messaggio Inviato!",
+    thankYou: "Grazie per averci contattato. Risponderemo al tuo messaggio il prima possibile.",
+    faq: "Domande Frequenti",
+    faqSubtitle: "Trova risposte rapide alle domande più frequenti sui nostri alloggi e servizi.",
+    questions: {
+      checkInOut: {
+        question: "Quali sono gli orari di check-in e check-out?",
+        answer: "Il check-in è dalle 15:00 in poi, e il check-out è entro le 11:00. Il check-in anticipato o il check-out posticipato possono essere organizzati in base alla disponibilità."
+      },
+      parking: {
+        question: "È disponibile il parcheggio presso la struttura?",
+        answer: "Sì, offriamo parcheggio gratuito per tutti gli ospiti. Il servizio di parcheggio con valletto è disponibile anche a un costo aggiuntivo."
+      },
+      pets: {
+        question: "Sono ammessi animali domestici negli appartamenti?",
+        answer: "Accogliamo animali domestici in appartamenti designati pet-friendly. Ti preghiamo di informarci in anticipo se prevedi di portare un animale domestico, poiché potrebbero essere applicati costi aggiuntivi."
+      },
+      breakfast: {
+        question: "La colazione è inclusa nella tariffa della camera?",
+        answer: "La colazione è inclusa in alcuni pacchetti selezionati. Puoi verificare l'inclusione durante il processo di prenotazione o aggiungerla alla tua prenotazione in qualsiasi momento."
+      },
+      transfers: {
+        question: "Offrite trasferimenti aeroportuali?",
+        answer: "Sì, offriamo trasferimenti aeroportuali a un costo aggiuntivo. Ti preghiamo di contattare la nostra concierge almeno 48 ore prima del tuo arrivo per organizzare il trasporto."
+      },
+      amenities: {
+        question: "Quali servizi sono disponibili nella struttura?",
+        answer: "La nostra struttura comprende piscine, una spa, ristoranti, un bar sulla spiaggia, centro fitness e accesso diretto alla spiaggia. Tutti gli appartamenti includono Wi-Fi, aria condizionata e elettrodomestici moderni."
+      }
+    }
+  },
+  apartmentDescriptions: {
+    "1": {
+      name: "Suite Vista Mare Deluxe",
+      description: "Suite lussuosa con vista panoramica sul mare, comfort moderni e un balcone privato."
+    },
+    "2": {
+      name: "Appartamento Famiglia Premium",
+      description: "Appartamento spazioso ideale per famiglie, con cucina completa e splendida vista sulla costa."
+    },
+    "3": {
+      name: "Studio Spiaggia Executive",
+      description: "Elegante studio con accesso diretto alla spiaggia, design moderno e finiture premium."
+    },
+    "4": {
+      name: "Suite Attico di Lusso",
+      description: "Suite esclusiva all'ultimo piano con ampia terrazza e vista panoramica sul mare."
+    },
+    "5": {
+      name: "Camera Doppia Classica",
+      description: "Confortevole camera d'albergo con comfort moderni e vista parziale sul mare."
+    },
+    "6": {
+      name: "Appartamento Vista Giardino",
+      description: "Appartamento tranquillo circondato da lussureggianti giardini, a breve distanza a piedi dalla spiaggia."
+    }
+  }
 };

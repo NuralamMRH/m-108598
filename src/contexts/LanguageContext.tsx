@@ -12,10 +12,20 @@ interface LanguageContextType {
   t: Translations;
 }
 
+// Function to ensure all translations have the same structure as the English one
+const normalizeTranslation = (translation: any): Translations => {
+  // Use English as the base and merge with the provided translation
+  return {
+    ...en,
+    ...translation
+  };
+};
+
+// Create normalized translations that match the English structure
 const translations: Record<string, Translations> = {
   en,
-  it,
-  vn
+  it: normalizeTranslation(it),
+  vn: normalizeTranslation(vn)
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
