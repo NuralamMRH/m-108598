@@ -1,398 +1,304 @@
-
 export const vn = {
-  nav: {
+  common: {
+    // Common translations
+    language: "Ngôn ngữ",
+    close: "Đóng",
+  },
+  navbar: {
     home: "Trang chủ",
     apartments: "Căn hộ",
-    amenities: "Tiện nghi",
+    booking: "Đặt phòng",
     gallery: "Thư viện ảnh",
     contact: "Liên hệ",
-    bookNow: "Đặt ngay"
-  },
-  hero: {
-    subtitle: "KẾT NỐI ĐẠI DƯƠNG",
-    title: "Phát Triển Bền Vững",
-    description: "Ứng dụng StarLink BoatShare Hải Sản từ Ngư trường đến Bàn ăn",
-    bookStay: "Đặt chỗ",
-    exploreApartments: "Khám phá căn hộ",
-    scrollDown: "Cuộn xuống"
+    amenities: "Tiện nghi",
   },
   footer: {
-    description: "Căn hộ sang trọng bên bờ biển với tầm nhìn ra biển tuyệt đẹp, mang đến sự kết hợp hoàn hảo giữa sự thoải mái và sang trọng cho kỳ nghỉ trong mơ của bạn.",
-    quickLinks: "Liên kết nhanh",
+    // Footer translations
+    company: "Công ty",
     contact: "Liên hệ",
-    newsletter: "Bản tin",
-    newsletterDesc: "Đăng ký nhận bản tin của chúng tôi để nhận các ưu đãi đặc biệt và cập nhật.",
-    yourEmail: "Địa chỉ email của bạn",
-    subscribe: "Đăng ký",
-    allRights: "Tất cả các quyền được bảo lưu."
+    address: "Địa chỉ",
+    phone: "Điện thoại",
+    email: "Email",
+    social: "Mạng xã hội",
+    copyright: "© {year} MareSereno. Đã đăng ký bản quyền.",
   },
-  bookingForm: {
-    title: "Đặt chỗ nghỉ",
-    checkIn: "Ngày nhận phòng",
-    checkOut: "Ngày trả phòng",
-    adults: "Người lớn",
-    children: "Trẻ em",
-    adult: "Người lớn",
-    child: "Trẻ em",
-    selectDate: "Chọn ngày",
-    checkAvailability: "Kiểm tra tình trạng phòng",
-    bookingConfirmed: "Đặt phòng đã được xác nhận!"
+  hero: {
+    subtitle: "Chào mừng đến với MareSereno",
+    title: "Tìm nơi nghỉ dưỡng hoàn hảo của bạn",
+    description:
+      "Khám phá các căn hộ sang trọng của chúng tôi với tầm nhìn tuyệt đẹp ra biển. Đặt kỳ nghỉ của bạn ngay hôm nay!",
+    bookStay: "Đặt phòng ngay",
+    exploreApartments: "Khám phá căn hộ",
+    scrollDown: "Cuộn xuống",
   },
-  testimonials: {
-    title: "Khách hàng nói gì",
-    description: "Khám phá lý do tại sao khách hàng của chúng tôi tiếp tục quay lại MareSereno cho kỳ nghỉ bên bờ biển."
+  home: {
+    welcome: {
+      subtitle: "Chào mừng",
+      title: "Trải nghiệm sự sang trọng và thoải mái",
+      description1:
+        "MareSereno là điểm đến lý tưởng cho kỳ nghỉ đáng nhớ của bạn. Với các căn hộ tiện nghi và dịch vụ hoàn hảo, chúng tôi cam kết mang đến cho bạn trải nghiệm tuyệt vời nhất.",
+      description2:
+        "Tận hưởng không gian riêng tư, thư giãn và khám phá vẻ đẹp của biển cả. Chúng tôi luôn sẵn sàng phục vụ bạn!",
+      learnMore: "Tìm hiểu thêm",
+    },
+    booking: {
+      subtitle: "Đặt phòng",
+      title: "Tìm căn hộ lý tưởng của bạn",
+      description:
+        "Chọn loại căn hộ, ngày đến và đi, và số lượng khách để tìm căn hộ phù hợp nhất với bạn.",
+      benefits: [
+        "Giá tốt nhất",
+        "Xác nhận tức thì",
+        "Thanh toán an toàn",
+        "Hỗ trợ 24/7",
+      ],
+    },
+    featuredApartments: {
+      subtitle: "Căn hộ nổi bật",
+      title: "Khám phá các căn hộ sang trọng của chúng tôi",
+      description:
+        "Các căn hộ được lựa chọn đặc biệt với tiện nghi hiện đại và tầm nhìn tuyệt đẹp.",
+      viewAll: "Xem tất cả",
+    },
+    amenities: {
+      subtitle: "Tiện nghi",
+      title: "Tận hưởng các tiện nghi đẳng cấp",
+      description:
+        "Chúng tôi cung cấp đầy đủ các tiện nghi để kỳ nghỉ của bạn trở nên hoàn hảo.",
+      features: {
+        beachfront: {
+          title: "Bãi biển riêng",
+          description: "Tận hưởng bãi biển riêng tư và thư giãn.",
+        },
+        pools: {
+          title: "Hồ bơi",
+          description: "Thư giãn tại hồ bơi vô cực với tầm nhìn biển.",
+        },
+        restaurant: {
+          title: "Nhà hàng",
+          description: "Thưởng thức ẩm thực đặc sắc tại nhà hàng của chúng tôi.",
+        },
+        wifi: {
+          title: "Wi-Fi miễn phí",
+          description: "Kết nối internet tốc độ cao miễn phí.",
+        },
+        bar: {
+          title: "Quầy bar",
+          description: "Thưởng thức đồ uống tại quầy bar bên hồ bơi.",
+        },
+        location: {
+          title: "Vị trí thuận lợi",
+          description: "Gần các điểm tham quan và mua sắm.",
+        },
+      },
+    },
+    cta: {
+      title: "Bạn đã sẵn sàng cho kỳ nghỉ của mình chưa?",
+      description: "Đặt phòng ngay hôm nay và tận hưởng ưu đãi đặc biệt!",
+      bookNow: "Đặt phòng ngay",
+    },
   },
-  notFound: {
-    title: "Không tìm thấy trang",
-    description: "Chúng tôi không thể tìm thấy trang bạn đang tìm kiếm. Có lẽ bạn đã đi sai đường ở thiên đường?",
-    returnHome: "Trở về trang chủ"
-  },
-  apartments: {
-    title: "Căn hộ & Phòng của chúng tôi",
-    subtitle: "Khám phá bộ sưu tập các căn hộ cao cấp, từ phòng studio ấm cúng đến các căn penthouse sang trọng.",
+  apartmentsPage: {
+    title: "Căn hộ của chúng tôi",
+    subtitle: "Khám phá các căn hộ sang trọng với tầm nhìn tuyệt đẹp",
+    description:
+      "Chúng tôi cung cấp nhiều loại căn hộ phù hợp với mọi nhu cầu của bạn. Tất cả các căn hộ đều được trang bị tiện nghi hiện đại và thiết kế sang trọng.",
     filters: {
-      guests: "Khách",
-      anyGuests: "Bất kỳ số lượng khách",
-      onePlus: "1+ khách",
-      twoPlus: "2+ khách",
-      threePlus: "3+ khách",
-      fourPlus: "4+ khách",
-      location: "Vị trí",
-      allLocations: "Tất cả các vị trí",
+      guests: "Số lượng khách",
       priceRange: "Khoảng giá",
-      showing: "Đang hiển thị",
-      of: "của",
-      accommodations: "chỗ ở",
-      resetFilters: "Đặt lại bộ lọc",
-      noMatch: "Không có căn hộ nào phù hợp với bộ lọc của bạn",
-      adjustFilters: "Hãy thử điều chỉnh tiêu chí lọc để xem thêm lựa chọn.",
-      viewDetails: "Xem chi tiết",
-      features: "tính năng",
-      more: "xem thêm"
-    }
+      amenities: "Tiện nghi",
+      applyFilters: "Áp dụng",
+      resetFilters: "Đặt lại",
+    },
   },
-  gallery: {
-    title: "Thư viện ảnh",
-    subtitle: "Khám phá thiên đường biển của chúng tôi qua những hình ảnh đẹp.",
-    filters: {
-      all: "Tất cả",
-      exterior: "Bên ngoài",
-      rooms: "Phòng",
-      amenities: "Tiện nghi"
-    }
-  },
-  booking: {
-    title: "Đặt chỗ nghỉ",
-    subtitle: "Hoàn tất đặt phòng trong vài bước đơn giản.",
-    steps: {
-      chooseRoom: "Chọn phòng",
-      guestDetails: "Chi tiết khách",
-      confirmation: "Xác nhận"
-    },
-    dates: {
-      selectDates: "Chọn ngày và khách",
-      checkIn: "Ngày nhận phòng",
-      checkOut: "Ngày trả phòng",
-      adults: "Người lớn",
-      children: "Trẻ em",
-      adult: "Người lớn",
-      child: "Trẻ em",
-      selectDate: "Chọn ngày"
-    },
-    accommodationSelect: {
-      title: "Chọn chỗ nghỉ",
-      guests: "Khách",
-      selected: "Đã chọn",
-      select: "Chọn",
-      continue: "Tiếp tục"
-    },
-    guestInfo: {
-      title: "Thông tin khách",
+  bookingPage: {
+    title: "Đặt phòng",
+    subtitle: "Nhập thông tin của bạn để hoàn tất đặt phòng",
+    form: {
+      personalInfo: "Thông tin cá nhân",
       firstName: "Tên",
       lastName: "Họ",
       email: "Email",
       phone: "Điện thoại",
-      address: "Địa chỉ",
-      city: "Thành phố",
-      zipCode: "Mã bưu chính",
-      country: "Quốc gia",
-      specialRequests: "Yêu cầu đặc biệt",
-      specialRequestsPlaceholder: "Bất kỳ yêu cầu đặc biệt hoặc ghi chú cho kỳ nghỉ của bạn"
-    },
-    payment: {
-      title: "Thông tin thanh toán",
-      creditCard: "Thẻ tín dụng",
-      payAtProperty: "Thanh toán tại chỗ nghỉ",
-      nameOnCard: "Tên trên thẻ",
+      apartmentDetails: "Chi tiết căn hộ",
+      apartmentType: "Loại căn hộ",
+      checkIn: "Ngày đến",
+      checkOut: "Ngày đi",
+      guests: "Số lượng khách",
+      paymentInfo: "Thông tin thanh toán",
       cardNumber: "Số thẻ",
-      cardNumberPlaceholder: "0000 0000 0000 0000",
       expiryDate: "Ngày hết hạn",
-      expiryDatePlaceholder: "MM/YY",
-      cvc: "CVC",
-      cvcPlaceholder: "123",
-      payAtPropertyInfo: "Bạn sẽ được yêu cầu cung cấp thẻ tín dụng hợp lệ khi đến nơi cho mục đích bảo mật, nhưng thanh toán sẽ được thu trong thời gian lưu trú của bạn tại chỗ nghỉ."
+      cvv: "CVV",
+      billingAddress: "Địa chỉ thanh toán",
+      streetAddress: "Địa chỉ",
+      city: "Thành phố",
+      state: "Tỉnh/Thành phố",
+      zipCode: "Mã bưu điện",
+      country: "Quốc gia",
+      termsAndConditions: "Tôi đồng ý với các điều khoản và điều kiện",
+      bookNow: "Đặt phòng ngay",
     },
-    summary: {
-      title: "Tóm tắt đặt phòng",
-      checkIn: "Nhận phòng",
-      checkOut: "Trả phòng",
-      guests: "Khách",
-      night: "đêm",
-      nights: "đêm",
-      cleaningFee: "Phí dọn dẹp",
-      serviceFee: "Phí dịch vụ",
-      total: "Tổng"
+    success: {
+      title: "Đặt phòng thành công!",
+      message: "Cảm ơn bạn đã đặt phòng tại MareSereno. Chúng tôi đã gửi thông tin chi tiết đặt phòng đến email của bạn.",
     },
-    confirmation: {
-      title: "Xem lại chi tiết đặt phòng",
-      accommodationDetails: "Chi tiết chỗ nghỉ",
-      guestDetails: "Chi tiết khách",
+  },
+  gallery: {
+    title: "Thư viện ảnh",
+    subtitle: "Khám phá vẻ đẹp của MareSereno",
+  },
+  contactPage: {
+    title: "Liên hệ",
+    subtitle: "Liên hệ với chúng tôi để biết thêm thông tin",
+    description:
+      "Nếu bạn có bất kỳ câu hỏi hoặc yêu cầu nào, vui lòng liên hệ với chúng tôi qua biểu mẫu bên dưới hoặc thông tin liên hệ được cung cấp.",
+    form: {
       name: "Tên",
       email: "Email",
+      message: "Tin nhắn",
+      send: "Gửi",
+    },
+    info: {
+      address: "Địa chỉ",
       phone: "Điện thoại",
-      address: "Địa chỉ", 
-      city: "Thành phố",
-      country: "Quốc gia",
-      specialRequests: "Yêu cầu đặc biệt",
-      paymentMethod: "Phương thức thanh toán",
-      creditCard: "Thẻ tín dụng",
-      priceSummary: "Tóm tắt giá",
-      termsAgree: "Tôi đồng ý với",
-      termsLink: "Điều khoản và điều kiện",
-      privacyLink: "Chính sách bảo mật",
-      cancellationInfo: "Tôi hiểu rằng đặt phòng của tôi tuân theo chính sách hủy của chỗ nghỉ.",
-      back: "Quay lại",
-      confirmBooking: "Xác nhận đặt phòng",
-      success: "Đặt phòng đã xác nhận!",
-      emailSent: "Đặt phòng của bạn đã được xác nhận thành công. Email xác nhận đã được gửi đến",
-      bookingReference: "Mã đặt phòng",
-      returnToHome: "Quay lại trang chủ"
-    }
-  },
-  contact: {
-    title: "Liên hệ với chúng tôi",
-    subtitle: "Chúng tôi luôn sẵn sàng giúp đỡ để kỳ nghỉ của bạn trở nên khó quên. Hãy liên hệ với bất kỳ câu hỏi hoặc yêu cầu đặc biệt nào.",
-    getInTouch: "Liên hệ",
-    address: "Địa chỉ",
-    phone: "Điện thoại",
-    email: "Email",
-    receptionHours: "Giờ lễ tân",
-    checkInTime: "Nhận phòng: Sau 15:00",
-    checkOutTime: "Trả phòng: Trước 11:00",
-    sendMessage: "Gửi tin nhắn cho chúng tôi",
-    fullName: "Họ và tên",
-    phoneNumber: "Số điện thoại",
-    subject: "Chủ đề",
-    message: "Tin nhắn",
-    howCanWeHelp: "Chúng tôi có thể giúp gì cho bạn?",
-    send: "Gửi tin nhắn",
-    messageSent: "Đã gửi tin nhắn!",
-    thankYou: "Cảm ơn bạn đã liên hệ. Chúng tôi sẽ phản hồi tin nhắn của bạn sớm nhất có thể.",
-    faq: "Câu hỏi thường gặp",
-    faqSubtitle: "Tìm câu trả lời nhanh cho các câu hỏi thường gặp về chỗ nghỉ và dịch vụ của chúng tôi.",
-    questions: {
-      checkInOut: {
-        question: "Thời gian nhận phòng và trả phòng của bạn là gì?",
-        answer: "Nhận phòng từ 15:00 trở đi và trả phòng đến 11:00. Nhận phòng sớm hoặc trả phòng muộn có thể được sắp xếp tùy thuộc vào tình trạng phòng trống."
-      },
-      parking: {
-        question: "Có bãi đỗ xe tại chỗ nghỉ không?",
-        answer: "Có, chúng tôi cung cấp bãi đỗ xe miễn phí cho tất cả khách. Dịch vụ đỗ xe có người phục vụ cũng có sẵn với một khoản phí bổ sung."
-      },
-      pets: {
-        question: "Thú cưng có được phép vào căn hộ không?",
-        answer: "Chúng tôi chào đón thú cưng trong các căn hộ thân thiện với thú cưng được chỉ định. Vui lòng thông báo cho chúng tôi trước nếu bạn dự định mang theo thú cưng, vì có thể áp dụng phí bổ sung."
-      },
-      breakfast: {
-        question: "Bữa sáng có bao gồm trong giá phòng không?",
-        answer: "Bữa sáng được bao gồm trong các gói phòng được chọn. Bạn có thể kiểm tra phần bao gồm trong quá trình đặt phòng hoặc thêm vào đặt phòng của bạn bất cứ lúc nào."
-      },
-      transfers: {
-        question: "Bạn có cung cấp dịch vụ đưa đón sân bay không?",
-        answer: "Có, chúng tôi cung cấp dịch vụ đưa đón sân bay với một khoản phí bổ sung. Vui lòng liên hệ với lễ tân của chúng tôi ít nhất 48 giờ trước khi bạn đến để sắp xếp phương tiện di chuyển."
-      },
-      amenities: {
-        question: "Có những tiện nghi nào tại chỗ nghỉ?",
-        answer: "Chỗ nghỉ của chúng tôi có hồ bơi, spa, nhà hàng, quầy bar bãi biển, trung tâm thể dục và lối đi trực tiếp ra bãi biển. Tất cả các căn hộ đều có Wi-Fi, điều hòa và các thiết bị hiện đại."
-      }
-    }
-  },
-  home: {
-    welcome: {
-      subtitle: "Chào mừng đến với MareSereno",
-      title: "Chỗ nghỉ sang trọng bên bờ biển",
-      description1: "Nằm trên bờ biển Địa Trung Hải nguyên sơ, MareSereno cung cấp một bộ sưu tập tuyệt vời các căn hộ sang trọng và phòng khách sạn. Chỗ nghỉ bên bờ biển của chúng tôi kết hợp thiết kế thanh lịch với sự thoải mái hiện đại, tạo nên khung cảnh hoàn hảo cho kỳ nghỉ biển khó quên.",
-      description2: "Dù bạn đang tìm kiếm một kỳ nghỉ lãng mạn, kỳ nghỉ gia đình hay một nơi nghỉ ngơi yên bình, loạt chỗ nghỉ đa dạng của chúng tôi đáp ứng mọi sở thích và nhu cầu. Mỗi không gian đều được thiết kế chu đáo để cung cấp tầm nhìn toàn cảnh ra biển và lối đi trực tiếp ra bãi biển.",
-      learnMore: "Tìm hiểu thêm"
+      email: "Email",
     },
-    booking: {
-      subtitle: "Đặt chỗ nghỉ",
-      title: "Đặt kỳ nghỉ hoàn hảo của bạn",
-      description: "Bước đầu tiên hướng tới kỳ nghỉ mơ ước của bạn là kiểm tra tình trạng phòng trống và đảm bảo ngày ưa thích của bạn. Quy trình đặt phòng đơn giản của chúng tôi đảm bảo trải nghiệm liền mạch từ đặt phòng đến khi đến nơi.",
-      benefits: ["Xác nhận ngay lập tức", "Đảm bảo giá tốt nhất", "Các tùy chọn hủy linh hoạt", "Thanh toán an toàn"]
+    success: {
+      title: "Gửi tin nhắn thành công!",
+      message: "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ phản hồi bạn trong thời gian sớm nhất.",
     },
-    featuredApartments: {
-      subtitle: "Chỗ nghỉ của chúng tôi",
-      title: "Căn hộ nổi bật",
-      description: "Khám phá các lựa chọn chỗ nghỉ phổ biến nhất của chúng tôi, mỗi lựa chọn đều mang đến sự kết hợp hoàn hảo giữa sự thoải mái, phong cách và tầm nhìn tuyệt đẹp ra biển.",
-      viewAll: "Xem tất cả các căn hộ"
-    },
-    amenities: {
-      subtitle: "Tiện nghi khách sạn",
-      title: "Trải nghiệm điều tốt nhất",
-      description: "Tận hưởng các cơ sở vật chất và dịch vụ cao cấp của chúng tôi được thiết kế để làm cho kỳ nghỉ của bạn trở nên đặc biệt.",
-      features: {
-        beachfront: {
-          title: "Vị trí ven biển",
-          description: "Lối đi trực tiếp đến bãi biển nguyên sơ với làn nước trong vắt."
-        },
-        pools: {
-          title: "Hồ bơi",
-          description: "Thư giãn bên hồ bơi vô cực với tầm nhìn tuyệt đẹp ra biển."
-        },
-        restaurant: {
-          title: "Nhà hàng cao cấp",
-          description: "Thưởng thức ẩm thực địa phương và quốc tế tuyệt hảo."
-        },
-        wifi: {
-          title: "Wi-Fi tốc độ cao",
-          description: "Luôn kết nối với internet tốc độ cao miễn phí."
-        },
-        bar: {
-          title: "Quầy bar & Quán cà phê bãi biển",
-          description: "Đồ uống giải khát và đồ ăn nhẹ được phục vụ ngay trên bãi biển."
-        },
-        location: {
-          title: "Vị trí đắc địa",
-          description: "Gần các điểm tham quan, cửa hàng và nhà hàng địa phương."
-        }
-      }
-    },
-    cta: {
-      title: "Sẵn sàng cho kỳ nghỉ mơ ước của bạn?",
-      description: "Đặt chỗ nghỉ ngay hôm nay và trải nghiệm sự kết hợp hoàn hảo giữa sự xa hoa, thoải mái và tầm nhìn tuyệt đẹp ra biển.",
-      bookNow: "Đặt ngay"
-    }
   },
   amenitiesPage: {
-    title: "Tiện nghi của chúng tôi",
-    subtitle: "Khám phá các tiện nghi và dịch vụ sang trọng giúp kỳ nghỉ của bạn trở nên khó quên.",
-    description: "Tại MareSereno, chúng tôi cam kết cung cấp trải nghiệm lưu trú đầy đủ và sang trọng. Từ dịch vụ bãi biển đến cơ sở vật chất chăm sóc sức khỏe, mọi chi tiết đều được chăm chút kỹ lưỡng để đảm bảo sự thoải mái và hài lòng tối đa.",
+    title: "Tiện nghi",
+    subtitle: "Tận hưởng các tiện nghi đẳng cấp tại MareSereno",
+    description:
+      "Chúng tôi cung cấp đầy đủ các tiện nghi để kỳ nghỉ của bạn trở nên hoàn hảo. Từ hồ bơi vô cực đến nhà hàng sang trọng, chúng tôi có mọi thứ bạn cần để thư giãn và tận hưởng kỳ nghỉ của mình.",
     categories: {
       wellness: {
         title: "Sức khỏe & Thư giãn",
-        description: "Tự thưởng cho bản thân với các dịch vụ sức khỏe của chúng tôi được thiết kế để làm trẻ hóa cơ thể và tâm trí.",
+        description:
+          "Tận hưởng các tiện nghi chăm sóc sức khỏe và thư giãn để làm mới cơ thể và tâm trí.",
         items: [
           {
-            title: "Spa sang trọng",
-            description: "Spa của chúng tôi cung cấp đầy đủ các liệu pháp, từ liệu pháp truyền thống đến các phương pháp làm đẹp hiện đại nhất."
+            title: "Spa",
+            description: "Các liệu pháp spa chuyên nghiệp để thư giãn và phục hồi.",
           },
           {
-            title: "Trung tâm thể dục",
-            description: "Duy trì thói quen tập luyện của bạn với phòng tập hiện đại với tầm nhìn toàn cảnh ra biển."
+            title: "Phòng tập thể dục",
+            description: "Phòng tập thể dục hiện đại với đầy đủ thiết bị.",
           },
           {
             title: "Hồ bơi vô cực",
-            description: "Đắm mình trong hồ bơi vô cực của chúng tôi trong khi ngắm nhìn đường chân trời vô tận của biển."
+            description: "Hồ bơi vô cực với tầm nhìn biển tuyệt đẹp.",
           },
           {
-            title: "Yoga bãi biển",
-            description: "Tham gia các buổi yoga buổi sáng trên bãi biển để có một buổi thức dậy làm mới tinh thần."
-          }
-        ]
+            title: "Phòng xông hơi",
+            description: "Phòng xông hơi khô và ướt để giải độc cơ thể.",
+          },
+        ],
       },
       dining: {
         title: "Ẩm thực",
-        description: "Khám phá những điều tốt nhất của ẩm thực địa phương và quốc tế tại các nhà hàng và quầy bar của chúng tôi.",
+        description:
+          "Thưởng thức ẩm thực đặc sắc tại các nhà hàng và quán bar của chúng tôi.",
         items: [
           {
-            title: "Nhà hàng cao cấp",
-            description: "Thưởng thức các món ăn ngon do đầu bếp của chúng tôi chế biến với nguyên liệu địa phương tươi ngon."
+            title: "Nhà hàng chính",
+            description: "Nhà hàng phục vụ các món ăn quốc tế và địa phương.",
           },
           {
-            title: "Quầy bar bãi biển",
-            description: "Thưởng thức cocktail thơm ngon và đồ ăn nhẹ với đôi chân ngâm trong cát."
+            title: "Quán cà phê",
+            description: "Quán cà phê với các loại đồ uống và bánh ngọt.",
           },
           {
-            title: "Quầy bar sảnh",
-            description: "Thư giãn với các loại rượu vang và rượu mạnh thượng hạng trong không khí sang trọng."
+            title: "Quầy bar bên hồ bơi",
+            description: "Quầy bar phục vụ cocktail và đồ uống giải khát.",
           },
           {
             title: "Dịch vụ phòng",
-            description: "Thưởng thức các bữa ăn thượng hạng trong không gian riêng tư của căn hộ, có sẵn 24 giờ mỗi ngày."
-          }
-        ]
+            description: "Dịch vụ phòng 24/7 để đáp ứng mọi nhu cầu của bạn.",
+          },
+        ],
       },
       services: {
-        title: "Dịch vụ bổ sung",
-        description: "Tận dụng các dịch vụ bổ sung của chúng tôi để có kỳ nghỉ không lo âu.",
+        title: "Dịch vụ",
+        description:
+          "Chúng tôi cung cấp các dịch vụ tiện lợi để đảm bảo kỳ nghỉ của bạn diễn ra suôn sẻ.",
         items: [
           {
             title: "Lễ tân 24/7",
-            description: "Đội ngũ lễ tân của chúng tôi luôn sẵn sàng hỗ trợ bạn với mọi yêu cầu."
+            description: "Lễ tân luôn sẵn sàng hỗ trợ bạn.",
           },
           {
-            title: "Đưa đón sân bay",
-            description: "Di chuyển thoải mái đến và đi từ sân bay với dịch vụ đưa đón riêng của chúng tôi."
+            title: "Dịch vụ đưa đón sân bay",
+            description: "Dịch vụ đưa đón sân bay tiện lợi.",
           },
           {
-            title: "Thuê xe",
-            description: "Khám phá khu vực với đội xe cao cấp của chúng tôi có sẵn để thuê."
+            title: "Cho thuê xe",
+            description: "Dịch vụ cho thuê xe để bạn tự do khám phá.",
           },
           {
-            title: "Chuyến tham quan có hướng dẫn",
-            description: "Khám phá các điểm du lịch địa phương với các tour tham quan được cá nhân hóa do chuyên gia hướng dẫn."
-          }
-        ]
+            title: "Thông tin du lịch",
+            description: "Thông tin du lịch và đặt tour.",
+          },
+        ],
       },
       entertainment: {
         title: "Giải trí",
-        description: "Tận hưởng nhiều hoạt động giải trí được thiết kế cho mọi sở thích.",
+        description:
+          "Tận hưởng các hoạt động giải trí đa dạng để kỳ nghỉ của bạn thêm phần thú vị.",
         items: [
           {
-            title: "Thể thao dưới nước",
-            description: "Thử nhiều loại thể thao dưới nước, từ chèo thuyền đến lướt sóng."
+            title: "Bãi biển riêng",
+            description: "Bãi biển riêng tư để bạn thư giãn và tắm nắng.",
           },
           {
             title: "Khu vui chơi trẻ em",
-            description: "Trẻ em có thể vui chơi trong khu vực an toàn và có người giám sát của chúng tôi."
+            description: "Khu vui chơi an toàn và thú vị cho trẻ em.",
           },
           {
-            title: "Các buổi tối chủ đề",
-            description: "Tham gia các buổi tối chủ đề hàng tuần với âm nhạc và giải trí trực tiếp."
+            title: "Phòng trò chơi",
+            description: "Phòng trò chơi với nhiều trò chơi hấp dẫn.",
           },
           {
-            title: "Thư viện & Phòng trò chơi",
-            description: "Thư giãn với một cuốn sách hay hoặc tận hưởng trò chơi board game trong phòng chung của chúng tôi."
-          }
-        ]
-      }
-    }
+            title: "Thư viện",
+            description: "Thư viện với nhiều sách và tạp chí.",
+          },
+        ],
+      },
+    },
   },
-  apartmentDescriptions: {
-    "1": {
-      name: "Suite Deluxe Hướng Biển",
-      description: "Suite sang trọng với tầm nhìn toàn cảnh ra biển, tiện nghi hiện đại và ban công riêng."
-    },
-    "2": {
-      name: "Căn hộ Gia đình Cao cấp",
-      description: "Căn hộ rộng rãi lý tưởng cho gia đình, với bếp đầy đủ và tầm nhìn ven biển tuyệt đẹp."
-    },
-    "3": {
-      name: "Studio Executive Bãi biển",
-      description: "Studio thanh lịch với lối đi trực tiếp ra bãi biển, thiết kế hiện đại và hoàn thiện cao cấp."
-    },
-    "4": {
-      name: "Suite Penthouse Sang trọng",
-      description: "Suite độc quyền ở tầng trên cùng với sân thượng rộng lớn và tầm nhìn toàn cảnh ra biển."
-    },
-    "5": {
-      name: "Phòng đôi Cổ điển",
-      description: "Phòng khách sạn thoải mái với tiện nghi hiện đại và tầm nhìn một phần ra biển."
-    },
-    "6": {
-      name: "Căn hộ Hướng Vườn",
-      description: "Căn hộ yên tĩnh được bao quanh bởi vườn cây xanh tươi, chỉ cách bãi biển một quãng đi bộ ngắn."
-    }
-  }
+  notFoundPage: {
+    title: "Không tìm thấy trang",
+    subtitle: "Trang bạn đang tìm kiếm không tồn tại",
+    description:
+      "Có thể trang đã bị xóa hoặc địa chỉ không chính xác. Vui lòng kiểm tra lại địa chỉ hoặc quay lại trang chủ.",
+    backToHome: "Quay lại trang chủ",
+  },
+  testimonials: {
+    title: "Đánh giá",
+    subtitle: "Khách hàng nói gì về chúng tôi",
+    description:
+      "Đọc những đánh giá chân thực từ khách hàng đã trải nghiệm dịch vụ của chúng tôi.",
+    reviews: [
+      {
+        name: "Nguyễn Văn A",
+        comment:
+          "Kỳ nghỉ tuyệt vời! Căn hộ rất đẹp và tiện nghi, nhân viên thân thiện và nhiệt tình. Chắc chắn sẽ quay lại!",
+        rating: 5,
+      },
+      {
+        name: "Trần Thị B",
+        comment:
+          "Vị trí tuyệt vời, gần biển và các điểm tham quan. Hồ bơi vô cực rất đẹp. Rất khuyến khích!",
+        rating: 4,
+      },
+      {
+        name: "Lê Công C",
+        comment:
+          "Dịch vụ tốt, phòng sạch sẽ và thoải mái. Nhà hàng phục vụ các món ăn ngon. Rất hài lòng!",
+        rating: 5,
+      },
+    ],
+  },
 };
