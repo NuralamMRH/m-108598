@@ -11,6 +11,10 @@ import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Amenities from "./pages/Amenities";
 import NotFound from "./pages/NotFound";
+import PortRequestPage from "./pages/dashboard/PortRequestPage";
+import FishingLogPage from "./pages/dashboard/FishingLogPage";
+import VesselManagementPage from "./pages/dashboard/VesselManagementPage";
+import ProcessingPage from "./pages/dashboard/ProcessingPage";
 import { LanguageProvider } from "./contexts/LanguageContext";
 
 // Create a react-query client
@@ -30,6 +34,13 @@ const App = () => (
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/amenities" element={<Amenities />} />
+            
+            {/* Dashboard Routes */}
+            <Route path="/dashboard/port-request" element={<PortRequestPage />} />
+            <Route path="/dashboard/fishing-log" element={<FishingLogPage />} />
+            <Route path="/dashboard/vessel-management" element={<VesselManagementPage />} />
+            <Route path="/dashboard/processing" element={<ProcessingPage />} />
+            
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

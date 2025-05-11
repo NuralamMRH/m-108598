@@ -1,8 +1,8 @@
-
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import FeatureButtonsSection from "@/components/FeatureButtonsSection";
 import BookingForm from "@/components/BookingForm";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ApartmentCard, { ApartmentProps } from "@/components/ApartmentCard";
@@ -98,7 +98,10 @@ export default function Index() {
         {/* Hero Section */}
         <HeroSection />
         
-        {/* Welcome Section - Updated with new content */}
+        {/* Feature Buttons Section - New addition */}
+        <FeatureButtonsSection />
+        
+        {/* Welcome Section */}
         <section id="welcome" className="section">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
