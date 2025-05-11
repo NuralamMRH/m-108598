@@ -11,6 +11,7 @@ import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Amenities from "./pages/Amenities";
 import NotFound from "./pages/NotFound";
+import DashboardLayout from "./components/dashboard/DashboardLayout";
 import PortRequestPage from "./pages/dashboard/PortRequestPage";
 import FishingLogPage from "./pages/dashboard/FishingLogPage";
 import VesselManagementPage from "./pages/dashboard/VesselManagementPage";
@@ -36,10 +37,12 @@ const App = () => (
             <Route path="/amenities" element={<Amenities />} />
             
             {/* Dashboard Routes */}
-            <Route path="/dashboard/port-request" element={<PortRequestPage />} />
-            <Route path="/dashboard/fishing-log" element={<FishingLogPage />} />
-            <Route path="/dashboard/vessel-management" element={<VesselManagementPage />} />
-            <Route path="/dashboard/processing" element={<ProcessingPage />} />
+            <Route path="/dashboard" element={<DashboardLayout />}>
+              <Route path="port-request" element={<PortRequestPage />} />
+              <Route path="fishing-log" element={<FishingLogPage />} />
+              <Route path="vessel-management" element={<VesselManagementPage />} />
+              <Route path="processing" element={<ProcessingPage />} />
+            </Route>
             
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

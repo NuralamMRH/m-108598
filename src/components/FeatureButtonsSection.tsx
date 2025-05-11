@@ -22,7 +22,7 @@ const FeatureButton = ({
     >
       {/* Circle background */}
       <div 
-        className="absolute w-[120%] h-[120%] rounded-full opacity-80"
+        className="absolute w-[120%] h-[120%] rounded-full opacity-80 animate-spin-slow"
         style={{ backgroundColor: bgColor }}
       />
       
