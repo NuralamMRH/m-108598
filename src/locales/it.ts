@@ -1,4 +1,3 @@
-
 export const it = {
   navbar: {
     home: "Casa",
@@ -199,12 +198,6 @@ export const it = {
       message: "Messaggio",
       submit: "Invia Richiesta",
     },
-  },
-  gallery: {
-    title: "Galleria Fotografica",
-    subtitle: "Immagini che Ispirano",
-    description:
-      "Esplora la nostra galleria fotografica e lasciati ispirare dalla bellezza del MareSereno. Scopri gli interni eleganti, le viste mozzafiato e i dettagli che rendono il nostro resort unico.",
   },
   contactPage: {
     title: "Contattaci",
