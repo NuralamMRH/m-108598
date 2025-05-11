@@ -29,7 +29,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://safarisurfschool.com/wp-content/uploads/elementor/thumbs/adventures-deep-sea-fishing-costa-rica-nosara-sailfish-pv2es20qfe7ogd3ccog1qjwjjyof5mqdxv3o46u4vk.jpg.webp')",
+          backgroundImage: "url('https://safarisurfschool.com/wp-content/uploads/adventures-deep-sea-fishing-costa-rica-nosara-sailfish-vertical.jpg')",
           transform: `translateY(${backgroundY}px)`,
           backgroundPosition: `center ${50 + scrollY * 0.05}%`
         }}

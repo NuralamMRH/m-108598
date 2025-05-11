@@ -98,26 +98,29 @@ export default function Index() {
         {/* Hero Section */}
         <HeroSection />
         
-        {/* Welcome Section */}
+        {/* Welcome Section - Updated with new content */}
         <section id="welcome" className="section">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-fade-in [animation-delay:100ms]">
                 <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                  {t?.home?.welcome?.subtitle || "Welcome"}
+                  {"Kết Nối Không Giới Hạn"}
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
-                  {t?.home?.welcome?.title || "Luxury Seaside Accommodations"}
+                  {"Truy Xuất Nguồn Gốc Thủy Sản Chính Xác"}
                 </h2>
                 <p className="text-muted-foreground mb-6">
-                  {t?.home?.welcome?.description1 || "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms."}
+                  {"iTruckSea - StarLink mang đến giải pháp viễn thông tiên cho ngành hàng hải, giúp kết nối ổn định ngay cả ở vùng biển xa."}
+                </p>
+                <p className="text-muted-foreground mb-6">
+                  {"Hệ thống hỗ trợ giám sát tàu cá theo thời gian thực, truy xuất nguồn gốc thủy sản chính xác, đảm bảo tuân thủ tiêu chuẩn iUU và tối ưu hóa chuỗi cung ứng."}
                 </p>
                 <p className="text-muted-foreground mb-8">
-                  {t?.home?.welcome?.description2 || "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need."}
+                  {"Với mạng lưới vệ tinh StarLink, dữ liệu được truyền tải nhanh chóng, giúp nâng cao hiệu quả vận hành, quản lý đánh bắt bền vững và tăng cường an toàn cho ngư dân trên biển."}
                 </p>
                 <Button asChild className="btn-primary">
                   <Link to="/about">
-                    {t?.home?.welcome?.learnMore || "Learn More"} <ArrowRight className="ml-2 h-4 w-4" />
+                    {"Đăng ký"} <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
               </div>
@@ -125,22 +128,22 @@ export default function Index() {
               <div className="relative animate-fade-in [animation-delay:300ms]">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&h=600&fit=crop"
-                    alt="Seaside view" 
+                    src="https://img-cdn.publive.online/fit-in/1280x960/filters:format(webp)/newsdrum-in/media/media_files/qTicYySjJFRho0HhwqCu.jpg"
+                    alt="Fishing boat" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute -bottom-6 -left-6 w-2/3 rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1545579133-99bb5ab189bd?w=400&h=300&fit=crop"
-                    alt="Luxury apartment interior" 
+                    src="https://safarisurfschool.com/wp-content/uploads/elementor/thumbs/adventures-deep-sea-fishing-nosara-costa-rica-horizontal-pv2eqryn4igmngy8tmjbudiyg2zfognjfj4vlmqfcg.jpg.webp"
+                    alt="Deep sea fishing" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="absolute -top-6 -right-6 w-1/2 rounded-2xl overflow-hidden shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=400&h=300&fit=crop"
-                    alt="Pool view" 
+                    src="https://www.innovationnewsnetwork.com/wp-content/uploads/2023/09/shutterstockGorodenkoff_2198932565-696x392.jpg"
+                    alt="Technology interface" 
                     className="w-full h-full object-cover"
                   />
                 </div>
